@@ -13,12 +13,6 @@ print(ini.a)
 # Mit dem Befehl "python3 -m pip install -U py-cord" habe ich pyCord installiert.
 # Dadurch können wir jetzt auch Slash Befehle nutzen.
 
-### old stuff ###
-    #intents = discord.Intents.default()
-    #bot = commands.Bot(command_prefix="!", intents=intents)
-#################
-
-
 
 bot = discord.Bot()
 
