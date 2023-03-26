@@ -16,7 +16,9 @@ import os
 import basic_functions
 
 #################### Static parameter list #########################################################
+# Open the Discord server settings --> Go to Widget and read out the server ID
 tc_server_id=505846117427052566
+
 #################### Main ##########################################################################
 bot = discord.Bot()
 basic_functions.start_listeners(bot,tc_server_id)
